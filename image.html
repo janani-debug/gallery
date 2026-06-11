@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Image Gallery</h1>
+
+<div class="buttons">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('animals')">Animals</button>
+    <button onclick="filterImages('cars')">Cars</button>
+</div>
+
+<div class="gallery">
+    <img src="C:\Users\VARSHA\Desktop\image\360_F_103258397_TojrlYJWzaAIBes3ICEa2S7hx4U2cUMw.jpg" class="nature" alt="Nature image 1">
+    <img src="C:\Users\VARSHA\Desktop\image\images (2).jpg" class="nature" alt="Nature image 2">
+    <img src="C:\Users\VARSHA\Desktop\image\download (2).jpg" class="nature" alt="Nature image 3">
+    <img src="C:\Users\VARSHA\Desktop\image\images (3).jpg" class="nature" alt="Nature image 4">
+    <img src="C:\Users\VARSHA\Desktop\image\images (1).jpg" class="animals" alt="Animals image 1">
+    <img src="C:\Users\VARSHA\Desktop\image\images.jpg" class="animals" alt="Animals image 2">
+    <img src="C:\Users\VARSHA\Desktop\image\download.jpg" class="animals" alt="Animals image 3">
+    <img src="C:\Users\VARSHA\Desktop\image\download (1).jpg" class="animals" alt="Animals image 4">
+    <img src="C:\Users\VARSHA\Desktop\image\ajithkumarracing.com-ajith-kumar-racing-track-test-11-ajith-kumar-racing-track-test-11-2048x1365.jpg" class="cars" alt="Cars image">
+</div>
+
+<div id="lightbox">
+    <button id="prev">❮</button>
+    <button id="close">✕</button>
+    <img id="lightbox-img" alt="Expanded gallery image">
+    <button id="next">❯</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
